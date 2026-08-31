@@ -50,7 +50,7 @@ BEGIN
 
 		PRINT '>> Inserting Data Into: bronze.crm_prd_info';
 		BULK INSERT bronze.crm_prd_info
-		FROM 'C:\sql\dwh_project\datasets\source_crm\prd_info.csv'
+		FROM 'D:\DA PROJECTS\sales-performance-customer-analytics\datasets\source_crm\prd_info.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
